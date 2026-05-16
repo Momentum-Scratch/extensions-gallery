@@ -51,6 +51,18 @@ export const extensions: Extension[] = [
     turbowarp: false
   },
   {
+    id: 'kokofixJSON',
+    name: 'JSON',
+    description: "Advanced JSON utils. WIll not run on any other scratch mod except NitroBolt",
+    author: 'kokofixcomputers',
+    icon: 'Type',
+    tags: ['utility'],
+    featured: true,
+    url: 'https://momentum-scratch.github.io/extensions/JSON.js',
+    verified: true,
+    turbowarp: false
+  },
+  {
     id: 'text',
     name: 'Animated Text',
     description: 'An easy way to display and animate text. Compatible with Scratch Lab\'s Animated Text experiment.',
