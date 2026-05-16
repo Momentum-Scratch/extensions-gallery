@@ -1,0 +1,39 @@
+import { Extension, CategoryInfo } from '../types/extension';
+
+export const categories: CategoryInfo[] = [
+  { id: 'all', label: 'All Extensions', icon: 'LayoutGrid' },
+  { id: 'graphics', label: 'Graphics', icon: 'Palette' },
+  { id: 'network', label: 'Network', icon: 'Globe' },
+  { id: 'utility', label: 'Utilities', icon: 'Wrench' },
+  { id: 'input', label: 'Input', icon: 'MousePointer' },
+  { id: 'media', label: 'Media', icon: 'Music' },
+  { id: 'data', label: 'Data', icon: 'Database' },
+  { id: 'game', label: 'Game', icon: 'Gamepad2' },
+  { id: 'system', label: 'System', icon: 'Monitor' },
+];
+
+export const extensions: Extension[] = [
+  {
+    id: 'strings',
+    name: 'Strings',
+    description: "Utilitiy blocks for dealing with strings and sometimes booleans",
+    author: 'kokofixcomputers',
+    icon: 'Type',
+    tags: ['utility', 'text'],
+    featured: true,
+    url: 'https://momentum-scratch.github.io/extensions/Strings.js',
+    verified: true,
+    turbowarp: false
+  },
+  {
+    id: 'cryptic',
+    name: 'Cryptic',
+    description: "Decryption/Encryption/Encoding/Decoding/Hashing engine.",
+    author: 'kokofixcomputers',
+    icon: 'Lock',
+    tags: ['utility', 'security'],
+    featured: true,
+    url: 'https://momentum-scratch.github.io/extensions/Cryptic.js',
+    verified: true,
+  },
+];
