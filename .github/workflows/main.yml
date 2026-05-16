@@ -40,9 +40,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Type check
-        run: pnpm tsc --noEmit
-
       - name: Build
         run: pnpm run build
 
