@@ -23,7 +23,7 @@ export function ExtensionCard({ extension, index }: ExtensionCardProps) {
 
   const handleOpen = () => {
     window.open(
-      'https://momentum-scratch.github.io/scratch-gui/editor?extension=' + extension.url,
+      'https://momentum-scratch.kokodev.cc/editor?extension=' + extension.url,
       '_blank'
     );
   };
